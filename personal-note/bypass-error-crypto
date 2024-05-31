@@ -1,0 +1,5 @@
+for bypass this openssl error, do "OPENSSL_CONF=/dev/null mongosh"
+
+[dionys@localhost ~]$ mongosh
+mongosh: OpenSSL configuration error:
+40482303067F0000:error:030000A9:digital envelope routines:alg_module_init:unknown option:../deps/openssl/openssl/crypto/evp/evp_cnf.c:61:name=rh-allow-sha1-signatures, value=yes
